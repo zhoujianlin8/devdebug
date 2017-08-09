@@ -64,6 +64,10 @@
       "test/fixtures/*.js"
     ]
   },
+  "author": {
+    "name": "zhoujianlin",
+    "email": "zhoujianlin8@gmail.com"
+  },
   "keywords": [
     "devdebug",
     "dev",
