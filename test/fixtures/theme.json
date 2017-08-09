@@ -1,0 +1,6 @@
+{
+  // See docs/rc-config.md for details
+  "devToolsExtensions": [
+    "/projects/oss/chrome-devtools-zerodarkmatrix-theme/theme-extension"
+  ]
+}
