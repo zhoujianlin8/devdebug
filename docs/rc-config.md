@@ -14,13 +14,13 @@ By default, config will search for a local `.devtoolrc`, or looking up the folde
 You can explicitly pass a config file like so:
 
 ```sh
-devtool src/index.js --config conf/opts.json
+devtool src/devdebug.js --config conf/opts.json
 ```
 
 Or disable config lookup entirely:
 
 ```sh
-devtool src/index.js --no-config
+devtool src/devdebug.js --no-config
 ```
 
 For example, you can add the following `.devtoolrc` file in the same directory as your project.
@@ -51,7 +51,7 @@ For example, you can add the following `.devtoolrc` file in the same directory a
 Some V8 flags may need to be set before initialization. You can pass these as options to electron like so:
 
 ```sh
-devtool src/index.js --js-flags="--harmony-proxies"
+devtool src/devdebug.js --js-flags="--harmony-proxies"
 ```
 
 ## DevTools Extensions

@@ -15,7 +15,7 @@
     "concat-stream": "^1.5.1",
     "convert-source-map": "^1.2.0",
     "deep-extend": "^0.4.1",
-    "electron": "1.6.11",
+    "electron": "1.7.6",
     "events": "^1.1.0",
     "mime": "^1.3.4",
     "minimist": "^1.2.0",
@@ -78,6 +78,6 @@
     "url": "https://github.com/zhoujianlin8/devdebug/issues"
   },
   "bin": {
-    "devdebug": "./bin/index.js"
+    "devdebug": "./bin/devdebug.js"
   }
 }

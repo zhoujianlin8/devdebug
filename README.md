@@ -70,7 +70,7 @@ Examples:
 
 ```sh
 # watch/dev a JS file, with a custom index.html
-devdebug src/index.js --index index.html --watch
+devdebug src/devdebug.js --index index.html --watch
 
 # redirect console and pipe results to a file
 devdebug main.js -q -c > foo.txt
@@ -144,7 +144,7 @@ You can also set an initial breakpoint with the `--break` flag. This will insert
 
 ```sh
 # run app but break on start
-devdebug src/index.js --break
+devdebug src/devdebug.js --break
 ```
 
 ### REPL
